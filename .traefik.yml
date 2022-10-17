@@ -1,0 +1,9 @@
+displayName: GET Parameters Modification
+type: middleware
+import: github.com/dev-toolbox/traefik-plugin-parameters
+summary: Add / modify / replace / delete the query parameters of a request
+testData:
+  Type: modify
+  ParamName: param
+  NewValue: newVal
+
